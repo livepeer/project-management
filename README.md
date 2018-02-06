@@ -99,10 +99,10 @@ Each morning team members on a given project are expected to post a
 brief virtual standup to the project's status update chat room on
 Gitter. The format is:
 
-Date
-**What I did yesterday**
-**What I'm doing today**
-**Blockers if any**
+* **Date**
+* **What I did yesterday**
+* **What I'm doing today**
+* **Blockers if any**
 
 ### Github based communication
 
@@ -129,3 +129,16 @@ columns at the minimum.
 The weekly engineering planning meeting is a good time to get feedback
 on and share the prioritization. But it's also a good idea to ask for
 some discussion any time priorities are in question.
+
+### A note on decentralization
+
+While the above is meant to help people understand how to get involved
+in the project and how to fit in the workflow, it's important to
+remember that Livepeer is a decentralized, permissionless
+project. **This means you are empowered to build what you want to see
+exist, and no permission is necessary.**
+
+If you have questions about how to make an impact or contribution to
+Livepeer, stop by the
+[gitter chatroom](https://gitter.im/livepeer/Lobby) and say hello.
+
