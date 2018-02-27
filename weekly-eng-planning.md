@@ -1,3 +1,76 @@
+# Engineering Planning 2/26/2018
+#### Protocol
+**Last Week**
+* Truebit collaboration: compile ffmpeg into wasm, set up a repo similar to truebit scrypt repo (Yondon/Josh)
+* Improve test coverage to 100% (Yondon)
+* Got started on making progress here, but did not complete it
+* Update transcoder pool to 20 with 10 active on Rinkeby (Eric) - I’ll do it today (Monday)
+
+**This Week**
+* Support external audit (Yondon + Eric)
+* Improve test coverage to 100% (Yondon)
+* Improve protocol documentation (Yondon)
+* Update transcoder pool to 20 with multisig transaction (Eric)
+
+#### Go Client
+**Last Week**
+* Debug transcoder inactivity issue (Eric) - did not finish
+* Code review for ffmpeg transcoder PR (Eric)
+* Further work on transcoder PR; addressed comments, added tests (Josh)
+
+**This Week**
+* Bug fix - Transcoder Round Initialization stops (Yondon)
+* Eric will coordinate network protocol changes (Eric)
+* Eric to document how basicnet works today (Eric)
+* Basicnet analysis, documentation. Hope to fix bugs as we go along. Develop a plan for the basicnet, in the short and medium term. (Josh)
+* Merge transcoder PR (Josh)
+
+#### Protocol Explorer
+**Last Week**
+* Feedback for bond task flow (everyone)
+* Task flows for Unbond, ClaimEarning, WithdrawStake, WithdrawFee (Josiah)
+* Token distribution experience depending on discussions this week, not expected to be fully designed by eow (Josiah)
+* Update sdk binding (Eric coordinate with Josiah)
+
+**This Week**
+* Education as “work”. Client-validated. How do we begin to create this content?
+* Secondary mechanism to “prove humanity” (captcha? Multi-factor? tokens?)
+* Chroma: Video Player - Playlist Selection (ABR)
+* Prioritize Explorer Enhancements (bold means prioritize for this week)
+  * **Claim Earnings - Button + Transaction Modal**
+  * **Round Initialization - Navbar Status**
+  * **Withdraw Stake - Button + Transaction Modal**
+  * **Withdraw Fees - Button + Transaction Modal**
+  * Pending Price/Cut/Fees
+  * Update ETH Faucet (external link)
+  * Messaging - Coaches
+  * Messaging - Info Icons + Explanatory Modals
+  * Claim Earnings - Badge
+  * Claim Earnings - Warning Modal
+  * Round Initialization - Warning Modal
+* Website redesign (Eric make sure to get asset from Brad)
+
+
+#### Misc
+**Last Week**
+* Public testnet deployment (Eric)
+* Design feedback - deadline on Wednesday (Everyone)
+* Token Distribution - feedback by Thursday morning (please review the email thread)
+* Community call this week (Doug)
+* Audit Instructions (Doug)
+* Create actionable items from the ETHDenver recap, and capture in Github. (Doug)
+
+#### Note: 
+* Validation strategy (Josh)
+  * For now, we can go with something naive like comparing frame rates and bit rates, but are many ways to break that, both intentionally and unintentionally. So I think we really need to spend some time developing the metrics we're going to be validating, and incorporate that into our long-term planning. Doubt we'll get this right on the first try, either. Make sure we have flexibility built into the protocol to refine the validation strategy after launch.
+* Protocol explorer chores - decided to delay to a later time
+  * Pre-commit hooks for linting/formatting
+  * CONTRIBUTING.md
+  * CI - Testing
+  * CI - Coverage
+  * CI - Deployment / Publishing
+  * CI - Code Quality
+
 # Engineering Planning 2/20/2018
 #### Protocol Explorer
 * Feedback for bond task flow (everyone)
