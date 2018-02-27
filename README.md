@@ -90,8 +90,18 @@ Each week there is a Monday engineering planning meeting where we:
 2. Set goals for the current week and take ownership of deliverables
 within each project.
 
-Team members are expected to come prepared to this meeting, knowing
-what they would like to accomplish during the week.
+We rotate to be the moderator.  The moderator's responsibilities include:
+* Prepare and send out shared work sheet prior to the meeting
+  * Create the sections for each project
+  * Fill out the decided tasks from last week
+* Coordinate / start the meeting
+* Make sure discussions are happening on pace - the meeting shouldn't exceed an hour
+* Make sure discussions are on-topic - prompt people to connect off-line for more in-depth conversations
+* Make sure everyone at the meeting speaks - prompt people to speak (what do you think about "x" Eric?)
+* Make sure to assign an owner for each decided task
+* Publish meeting notes
+
+Team members are expected to come prepared to this meeting by filling out + reviewing the shared work sheet prior to the meeting.
 
 Notes from each week's planning meeting is posted [here](https://github.com/livepeer/project-management/blob/master/weekly-eng-planning.md).
 
