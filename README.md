@@ -98,6 +98,7 @@ We rotate to be the **moderator**.  The moderator's responsibilities include:
 * Make sure discussions are happening on pace - the meeting shouldn't exceed an hour
 * Make sure discussions are on-topic - prompt people to connect off-line for more in-depth conversations
 * Make sure everyone at the meeting speaks - prompt people to speak (what do you think about "x" Eric?)
+* Keep notes on the tasks decided for the current week
 * Make sure to assign an owner for each decided task
 * Publish meeting notes
 
