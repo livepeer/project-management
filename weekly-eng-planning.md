@@ -1,5 +1,5 @@
 # Engineering Planning 2/26/2018
-#### Protocol
+### Protocol
 **Last Week**
 * Truebit collaboration: compile ffmpeg into wasm, set up a repo similar to truebit scrypt repo (Yondon/Josh)
 * Improve test coverage to 100% (Yondon)
@@ -12,7 +12,7 @@
 * Improve protocol documentation (Yondon)
 * Update transcoder pool to 20 with multisig transaction (Eric)
 
-#### Go Client
+### Go Client
 **Last Week**
 * Debug transcoder inactivity issue (Eric) - did not finish
 * Code review for ffmpeg transcoder PR (Eric)
@@ -25,7 +25,7 @@
 * Basicnet analysis, documentation. Hope to fix bugs as we go along. Develop a plan for the basicnet, in the short and medium term. (Josh)
 * Merge transcoder PR (Josh)
 
-#### Protocol Explorer
+### Protocol Explorer
 **Last Week**
 * Feedback for bond task flow (everyone)
 * Task flows for Unbond, ClaimEarning, WithdrawStake, WithdrawFee (Josiah)
@@ -51,7 +51,7 @@
 * Website redesign (Eric make sure to get asset from Brad)
 
 
-#### Misc
+### Misc
 **Last Week**
 * Public testnet deployment (Eric)
 * Design feedback - deadline on Wednesday (Everyone)
