@@ -2,7 +2,7 @@
 #### Protocol Explorer
 * Feedback for bond task flow (everyone)
 * Task flows for Unbond, ClaimEarning, WithdrawStake, WithdrawFee (Josiah)
-* Airdrop experience depending on discussions this week, not expected to be fully designed by eow (Josiah)
+* Token distribution experience depending on discussions this week, not expected to be fully designed by eow (Josiah)
 * Update sdk binding (Eric coordinate with Josiah)
 
 #### Protocol
