@@ -93,6 +93,8 @@ within each project.
 Team members are expected to come prepared to this meeting, knowing
 what they would like to accomplish during the week.
 
+Notes from each week's planning meeting is posted [here](https://github.com/livepeer/project-management/blob/master/weekly-eng-planning.md)
+
 ### Daily virtual standup
 
 Each morning team members on a given project are expected to post a
