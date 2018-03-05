@@ -1,3 +1,75 @@
+# Engineering Planning 3/5/2018
+
+## Moderator/Notetaker: Yondon Fu
+
+### Protocol
+**Last Week**
+* Support external audit - received initial weekly report and went through the read out with ToB (Yondon/Eric)
+* Improve test coverage to 100% - improved branch coverage a good amount, not at 100% due to quirks of coverage tool used, but at a good place right now until audit completes (Yondon)
+* Improve protocol documentation - received some helpful feedback from ToB on where to add some clarifying documentation, but did not get to actual writing. Holding off on this until audit completes to prioritize other engineering tasks (Yondon)
+* Verification strategy - discussed briefly, but there are not any immediate actionable items until we re-focus on this area (Josh)
+
+**This Week**
+* Support external audit (Yondon)
+* Document potential change to use a provided broadcaster address instead of a job creator's address when creating a job in an issue (Yondon)
+
+### Go Client
+**Last Week**
+* ETH client related bug fixes (Yondon)
+* Eric will coordinate network protocol changes - there needs to be more security analysis and threat modeling here, but the consensus is that what we have right now is ok and we can do more thorough analysis at a later point once we consider other changes (Eric)
+* Eric to document how basicnet works today (Eric)
+* Basicnet analysis, documentation. Hope to fix bugs as we go along. Develop a plan for the basicnet, in the short and medium term. (Josh)
+* Merge transcoder PR (Josh)
+* New release version of go-livepeer node (Eric)
+
+**This Week**
+* Goal: improve stability for the end-to-end system (broadcast -> transcode -> validate -> slash, round progression)
+* Start implementation for proposed basicnet change (Josh)
+* Discuss delayed broadcasting proposal - https://github.com/livepeer/go-livepeer/issues/316 - this is not urgent, but the issue is there to solicit feedback this week (Everyone)
+* Transcoder node stability bug fixes to try to prevent crashes as much as possible (Yondon)
+    - Panic fd - https://github.com/livepeer/go-livepeer/issues/289
+    - Transcoder as broadcaster does work but no one knows streamIDs - https://github.com/livepeer/go-livepeer/issues/284
+    - Log ETH tx for debugging - https://github.com/livepeer/go-livepeer/issues/271
+    - Node crash due to concurrent map read/write - https://github.com/livepeer/go-livepeer/issues/246
+    - Maintain transcoder state (this is probably least priority this week since it is not just a bug fix and is a feature to recover from crashes or going offline) - https://github.com/livepeer/go-livepeer/issues/269
+* Issue clean up for go-livepeer to close issues known to be fixed already (Yondon)
+* Stability for the verification computation solver, the daemon sometimes crashes (Yondon)
+
+### Protocol Explorer
+Overall, was very ambitious. Wrote a ton of code and made good progress on most tasks, but didn’t really finish any. There were are a lot of architectural patterns and refactoring I realized would be necessary groundwork for the tasked enhancements, so I focused on those. (Josiah)
+
+**Last Week**
+* Not started
+    - Chroma: Video Player - Playlist Selection (ABR)
+    - Update ETH faucet button
+* Done
+    - Form handling patterns (react-final-form)
+    - Tracking Global unsubmitted transaction status (TransactionStatusContainer / React Context)
+    - Pulling modals from inside view to being their own views (consume TransactionStatusContainer data)
+    - Deduplicated a lot of shared code, added updated type annotations (queries, util functions)
+    - Added Round type and currentRound query to GraphQL schema
+* In-progress Explorer enhancements:
+    - Claim Earnings - Button (done) + Transaction Modal
+    - Withdraw Stake - Button (done) + Transaction Modal
+    - Withdraw Fees - Button (done) + Transaction Modal
+    - Add transaction mutations GraphQL schema
+    - Transcoder “pending” stats
+
+**This Week**
+* Continue Explorer enhancements & deploy (Josiah)
+* PRs! Schedule an introduction? - Trying out weekly PR that commits are pushed to throughout the week (Josiah)
+
+### Misc
+**Last Week**
+* None
+
+**This Week**
+* Airdrop mechanism (Doug)
+    - Working on messaging and the right way to communicate the process to the community
+    - Working on preparing blog post drafts for publishing
+    - Working with Josiah on UX
+    - Interesting token distribution model to look at for reference is MakerDAO - not straightforward to join the community, but once you overcome the hurdle and technical education, you're welcomed with open arms into a tight knit community with many incentive aligned stakeholders
+
 # Engineering Planning 2/26/2018
 ### Protocol
 **Last Week**
@@ -60,7 +132,7 @@
 * Audit Instructions (Doug)
 * Create actionable items from the ETHDenver recap, and capture in Github. (Doug)
 
-#### Note: 
+#### Note:
 * Validation strategy (Josh)
   * For now, we can go with something naive like comparing frame rates and bit rates, but are many ways to break that, both intentionally and unintentionally. So I think we really need to spend some time developing the metrics we're going to be validating, and incorporate that into our long-term planning. Doubt we'll get this right on the first try, either. Make sure we have flexibility built into the protocol to refine the validation strategy after launch.
 * Protocol explorer chores - decided to delay to a later time
@@ -121,7 +193,7 @@ Goal: Start external audit on 2/14
 * Continue working through issues found through the audit (Yondon)
 * Internal security audit checklist (Eric)
 
-### Protocol Explorer 
+### Protocol Explorer
 * Wireframe for bonding/unbonding (Josiah)
 * Basic bonding interface (Josiah)
 * New UI/UX dev process / tools (Josiah)
@@ -243,6 +315,6 @@ Action Items:
 ### Misc
 * Ops - roles for different environments, key storage, etc (Eric to work with Joe offline)
 * Protocol explorer next step: bond/unbond/deposit/withdraw/claim
-* Video player next step: add resolution picker 
+* Video player next step: add resolution picker
 * Go client next step: Eric to work on Jan release goal
 * Postpone public testnet deployment until later time
