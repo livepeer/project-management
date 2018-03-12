@@ -1,3 +1,31 @@
+# Engineering Planning 3/12/2018
+
+## Moderator / Notetaker: Eric Tang
+
+### Network Launch
+**Last Week**
+* Finished ToB audit
+* Publish path decentralization post (Doug)
+* Script for processing registered account balances and compute airdrop amounts (Yondon)
+
+**This Week**
+* Create ToB audit response, make changes according to the audit (Yondon)
+* Finish up deployment for the explorer (Josiah)
+* Json web tokens proposal (Josiah)
+* Backend API for the airdrop app (Josiah)
+* Captcha research (Let’s help Josiah on this)
+* Complete airdrop distribution infrastructure including any necessary architectural updates with goal of having a setup that is easy to do dry runs with by EOD Thursday (Yondon)
+* Run through and document operational/key management workflow for the airdrop distribution, protocol deployment and protocol upgrades (I think @Eric got started with this as it relates to the use of a multisig a few weeks ago) (Yondon)
+* Get transcoders to run consistent transcoding, claiming, verification (Eric)
+* Transcoder stability (Eric + Yondon)
+  * Panic fd - https://github.com/livepeer/go-livepeer/issues/289
+  * Transcoder as broadcaster does work but no one knows streamIDs - https://github.com/livepeer/go-livepeer/issues/284
+  * Log ETH tx for debugging - https://github.com/livepeer/go-livepeer/issues/271
+  * Node crash due to concurrent map read/write - https://github.com/livepeer/go-livepeer/issues/246
+  * Maintain transcoder state (this is probably least priority this week since it is not just a bug fix and is a feature to   * recover from crashes or going offline) - https://github.com/livepeer/go-livepeer/issues/269
+* Networking protocol change (Josh)
+
+
 # Engineering Planning 3/5/2018
 
 ## Moderator/Notetaker: Yondon Fu
