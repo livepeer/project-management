@@ -106,6 +106,14 @@ Team members are expected to come prepared to this meeting by **filling out + re
 
 Notes from each week's planning meeting is posted [here](https://github.com/livepeer/project-management/blob/master/weekly-eng-planning.md).
 
+Current moderator rotations: 
+```
+Yondon -> Eric -> Josiah -> Josh
+  ▲                          |                           
+  |                          ▼
+  ----------------------------
+```
+
 ### Daily virtual standup
 
 Each morning team members on a given project are expected to post a
