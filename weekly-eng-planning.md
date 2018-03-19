@@ -1,4 +1,4 @@
-# Engineering Planning 3/12/2018
+# Engineering Planning 3/19/2018
 
 ## Moderator / Notetaker: Josiah Savary
 **Last Week**
@@ -30,6 +30,8 @@
 - Prepare for Berlin hackathon (Josiah)
   - Update LivepeerJS documentation
   - Publish latest LivepeerJS packages to npm
+
+# Engineering Planning 3/12/2018
 
 ## Moderator / Notetaker: Eric Tang
 
