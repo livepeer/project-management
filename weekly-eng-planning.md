@@ -1,5 +1,36 @@
 # Engineering Planning 3/12/2018
 
+## Moderator / Notetaker: Josiah Savary
+**Last Week**
+- Reviewed participation content strategy, created participation repo + issues, and kept team unblocked (Doug)
+- Wrote response to audits (Yondon)
+- Pushing some recommended updates from this release to next; PRs outstanding (Yondon)
+- Wrote backend token distro scripts (Yondon)
+- Major problem solved for transcoder stability -- too many file descriptors (Eric)
+- Protocol updates seem to be in good shape. The pieces are in and does everything that we agreed on (Josh)
+- Made updates to the basicnet testing setup; PR outstanding (Josh)
+- Deployed testable / working version of serverless participation api (Josiah)
+
+**This Week**
+- **Big Goal**: e2e registration / distro dry-run by Thursday 3/19 (Doug)
+- Detailed step-by-step checklist for mainnet deployment (Doug)
+- Need to come up with mainnet protocol parameters (Doug)
+- Add additional logic for failure conditions / tracking progress in distro scripts (Yondon)
+- Focus on Basicnet (Josh)
+  - Integrating go client
+  - Get tests passing
+  - Continue to create and comment on issues concerning potential med/long-term complications regarding our network topology
+- Continue to improve transcoder stability (Eric)
+  - Infura WebSocket connections still unstable...trying different strategies to compensate. Potential solutions are linked to persisting livepeer node state.
+  - Verifiers -- need scripts to monitor, restart, and manually verify specific events
+- Create proposal for bug bounty program (Eric)
+- Security checklist (Eric)
+- Continue discussions with distributed contributors (Nicolas, etc) (Eric)
+- Iterate on participation frontend / API (Josiah)
+- Prepare for Berlin hackathon (Josiah)
+  - Update LivepeerJS documentation
+  - Publish latest LivepeerJS packages to npm
+
 ## Moderator / Notetaker: Eric Tang
 
 ### Network Launch
