@@ -1,3 +1,34 @@
+# Engineering Planning 3/25/2018
+
+## Moderator / Notetaker: Josh Allmann
+**Last Week**
+- Underwent first full network deployment, genesis state, distribution dry run!
+- Developed bug bounty program (Eric)
+- Documented Launch deployment checklist (Yondon)
+- Networking protocol changes (Josh)
+- Pariticipation UI and infrastructure built (Josiah)
+- Website updates (Josiah)
+
+**This Week**
+- **Emphasis is on stability fixes and documentation.**
+- Decision and set up around ETH node used for distribution. Related to this is handling any connection breakage (Yondon)
+- Make sure we are set up to handle any halting during the distribution and that we can recover (Yondon)
+- Continue to formalize deployment and genesis checklist (Yondon)
+- Work on fixing verification-computation-solver (Yondon, Eric)
+  - Potential additional changes needed here related to latest transcoder changes for LPMS
+- Test the revocation of the vesting contract (Eric)
+- Multisig key management decisions (Doug)
+- Set protocol parameters (Doug)
+- Set up a mainnet synced archive node (Eric)
+- Revisit devenv to get it up to date, update the developer doc along the way. (Eric)
+- Update ReadTheDocs in support of launch (Doug to coordinate, but might need some team input)
+- Add call reward functionality in the CLI
+- Investigate transcoder behavior under load (Josh)
+- AWS Infra review (Josiah and Eric)
+- Participation UI content udpdates (Josiah)
+- Possibly: Transcoding level selection in chroma player, bonding UX (Josiah)
+
+
 # Engineering Planning 3/19/2018
 
 ## Moderator / Notetaker: Josiah Savary
