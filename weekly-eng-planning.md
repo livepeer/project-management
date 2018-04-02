@@ -1,3 +1,69 @@
+# Engineering Planning 4/2/2018
+
+## Moderator / Notetaker: Yondon Fu
+**Last Week**
+- **Emphasis is on stability fixes and documentation**
+- Decision and set up around ETH node used for distribution. Related to this is handling any connection breakage (Yondon)
+- Make sure we are set up to handle any halting during the distribution and that we can recover (Yondon)
+- Continue to formalize deployment and genesis checklist (Yondon)
+- Work on fixing verification-computation-solver (Yondon, Eric)
+  - Potential additional changes needed here related to latest transcoder changes for LPMS
+- Test the revocation of the vesting contract (Eric)
+  - Revocation of tokens not actually observed because revocation is only for unvested tokens and all the tokens has already vested by the time of revocation - will make a note to check again next time before all the tokens become vested
+- Multisig key management decisions (Doug)
+- Set protocol parameters (Doug)
+- Set up a mainnet synced archive node (Eric)
+  - Not done last week, but set up should be fairly straightforward and will be done this week
+- Revisit devenv to get it up to date, update the developer doc along the way. (Eric)
+- Update ReadTheDocs in support of launch (Doug to coordinate, but might need some team input)
+  - A lot of helpful content has been created in other sources such as the forum, but ReadTheDocs still needs updating
+- Add call reward functionality in the CLI
+- Investigate transcoder behavior under load (Josh)
+  - Didn’t get to actual simulations, but looked at the test suite with the goal of making sure the test suite is set up correctly to check this behavior
+  - Eric has found some success with a local set up for testing that handles multiple transcoders - will try to document his process (Eric)
+- AWS Infra review (Josiah and Eric)
+  - Migrated to new prod environment after getting through some migration issues which will be described in a postmortem
+- Participation UI/API testing and updates (Josiah)
+- Synced with Raffi about analytics (Josiah)
+- LivepeerJS housekeeping - updated docs, published latest packages to npm (Josiah)
+- Attempted to merge basicnet; blocked on go-ipfs. Need to sync all gx deps. (Josh)
+  - Will need better solution for upgrades in the future for maintainability
+
+**This Week**
+- Testing for new bitexact verification code in devenv and hoping to make the setup for that component in devenv easier (Yondon)
+  - We should make sure that the versions used in the releases are exactly the same both in go-livepeer and the relevant verification code
+- Simulate an airdrop distribution with thousands of recipients (Yondon)
+- Review some of the progress made on the Truebit PoC on the Truebit side (Yondon)
+- Mainnet deployment prep
+  - Set up a full ETH node to sync with mainnet (Eric)
+  - Documentation of tasks such as upgrades, revocation of vesting tokens, releasing vesting tokens, etc. (Yondon)
+- Review new deployment procedures for AWS services (Eric + Josiah)
+- Setup Google Analytics for livepeer.tv (Chris + Josiah)
+  - Chris is owner so sync with him to figure this out
+- LivepeerJS (Josiah)
+  - CI Testing + coverage
+  - Pre-commit hooks (linting / testing)
+  - Looking to spend a little time each week to keep things up to date instead of doing giant batch updates in the future
+- Continue updates for participation UI/API (Josiah)
+  - Waiting on some clarification for potential copy and requirement info changes
+- If registartion with participation app launches this week the #1 priority will be to address and support user experience in real time (Everyone)
+- Explorer enhancements (Josiah)
+  - Fix bugs, improve navigation, in-app tips
+  - Plan updates on pre-launch timeline
+  - There is a good chance that there will not be time for all of this week
+  - Generally, this is high priority, but attempting to unblock other people as we get the partipation related stuff out the door this week
+- Documentation for AWS infra updates (Eric)
+- Broadcasting bug: same node different IP - cannot broadcast from home on my laptop (Eric)
+- Ingest1 bug: node needed restart on Saturday.  Why? (Eric)
+- End-to-end testing: change verification rate to 1/100 on Rinkeby so verification is invoked more often (Eric)
+  - Coordinate with Yondon after the verification code updates are tested in devenv
+- Sketch design and begin discussion around saving goclient state and restoring after restarts (Josh)
+  - Video segments being transcoded
+  - On chain events / last block (solve websocket instability issue)
+  - Josh to create an organizing issue to kick things off for this project
+- Start talking with IPFS about gx and go-ipfs which is blocking basicnet PR; will be a maintenance headache. (Josh)
+- Finish PR for enforcing segment length. Currently a WIP and not ready (Josh)
+
 # Engineering Planning 3/25/2018
 
 ## Moderator / Notetaker: Josh Allmann
