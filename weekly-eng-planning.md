@@ -1,3 +1,72 @@
+# Engineering Planning 4/9/2018
+
+## Moderator / Notetaker: Eric Tang
+**Last Week**
+* Testing for new bitexact verification code in devenv and hoping to make the setup for that component in devenv easier (Yondon)
+  * We should make sure that the versions used in the releases are exactly the same both in go-livepeer and the relevant verification code
+* Simulate an airdrop distribution with thousands of recipients (Yondon)
+* Review some of the progress made on the Truebit PoC on the Truebit side (Yondon)
+* Mainnet deployment prep
+  * Set up a full ETH node to sync with mainnet (Eric)
+  * Documentation of related tasks such as upgrades, revocation of vesting tokens, etc. (Yondon)
+* Review new deployment procedures for AWS services (Eric + Josiah)
+* Setup Google Analytics for livepeer.tv (Chris + Josiah)
+  * Chris is owner so sync with him to figure this out
+* LivepeerJS (Josiah)
+  * CI Testing + coverage
+  * Pre-commit hooks (linting / testing)
+* Continue updates for participation UI/API (Josiah)
+  * Generally: multiple things every sprint - spend a little time each week to keep things up to date to relieve future update burden
+  * Potential copy and other requirement info updates dependent on clarification from legal 
+* Explorer enhancements (Josiah)
+  * Fix bugs, improve navigation, in-app tips
+  * Plan updates on pre-launch timeline 
+  * Dependent on work on participation - optimistic, will get to possibly
+    * Generally high priority, but trying to get past existing blockers for others first especially while we get participation out the door
+* Broadcasting bug: same node different IP - cannot broadcast from home on my laptop (Eric) - turns out I AM able to broadcast now. It’s hard to reproduce this bug. I think we need better instrumentation.
+* Ingest1 bug: node needed restart on Saturday.  Why? (Eric) - again, cannot reproduce.
+* End-to-end testing: change verification rate to 1/100 on Rinkeby so verification is invoked more often (Eric)
+  * Yondon will also coordinate some of the updates being made to the verification code as it happens in devenv
+* Should we add transcoder state for (Everyone)
+  * Video segments being transcoded
+  * On chain events / last block (solve websocket instability issue)
+  * Josh wants to start on this, will create an organizing issue to kick things off
+* Start talking with IPFS about gx and go-ipfs which is blocking basicnet PR; will be a maintenance headache. (Josh)
+* Finish PR for enforcing segment length (Josh)
+  * WIP - not ready
+* If we launch registration this week - #1 priority is addressing and supporting that experience so that people are supported in real time
+* Sketch design and begin discussion around saving goclient state and restoring after restarts (Josh)
+
+
+**This Week**
+* **Biggest unknown this week: getting the node synced and running tests**
+* **Lose time constraint - Thur/Fri auditor**
+* Spec for MerkleMine contract - decide on the open questions, finish the spec (Doug)
+* Implement & test MerkleMine contract (Yondon)
+* Generate MerkleMine root & proofs (Yondon)
+* Main net dry run - after handing off to trail of bits (Yondon + Eric)
+* User flow for bonding MerkleMined token? (Josiah and Eric)
+* Cli improvement (Eric)
+  * Simple “mine” interface? (No)
+  * Remove broadcast option? (Yes)
+* Make OBS connection information apparent in go-livepeer log (Eric)
+* Gateway allow-list? (Eric)
+* Explorer bug fixes and enhancements outlined last week (Josiah)
+  * Call to action for transcoders
+  * Inline help
+* LivepeerJS documentation (CONTRIBUTING.md, README.md) (Josiah)
+* Continue working on local storage aspects of restoring transcoder state (Josh)
+  * Sqlite based
+* Update Rinkeby testnet parameter (Eric + Yondon)
+* Explorer point to main net (Josiah)
+* Update & release Livepeer node for main net (Eric)
+* Offline mode for verification-solver - don't need to fix this week - just keep track of the data (Yondon)
+* Verification-solver error (invalid length for result)
+* Single-page dapp for submitting MerkleMine proof (low priority, don't work on it this week)
+* Documentation for claim / bond action - blog + forum posts
+* Key security for allow-listed verifier addresses?
+
+
 # Engineering Planning 4/2/2018
 
 ## Moderator / Notetaker: Yondon Fu
