@@ -1,3 +1,55 @@
+
+# Engineering Planning 4/16/2018
+## Moderator / Notetaker: Josiah Savary
+**Last Week**
+-   Biggest unknown this week: getting the node synced and running tests
+-   Loose time constraint - Thur/Fri auditor
+-   Spec for MerkleMine contract - decide on the open questions, finish the spec (Doug)
+-   Implement & test MerkleMine contract (Yondon)
+-   Generate MerkleMine root & proofs (Yondon)
+-   Main net dry run - after handing off to trail of bits (Yondon + Eric)
+-   User journey for bonding MerkleMined token? (Josiah and Eric)
+-   Cli improvement (Eric)
+    -   Simple “mine” interface? (No)
+    -   Remove broadcast option? (Yes)
+-   Make OBS connection information apparent in go-livepeer log (Eric)
+-   Gateway allow-list? (Eric)
+    -   Will accomplish this week
+-   Explorer bug fixes and enhancements outlined last week (Josiah)
+    -   Call to action for transcoders
+    -   Inline help
+-   LivepeerJS documentation (CONTRIBUTING.md, README.md) (Josiah)    
+-   Continue working on local storage aspects of restoring transcoder state (Josh)
+    -   Sqlite based
+-   Update Rinkeby testnet parameter (Eric + Yondon)
+-   Explorer point to main net (Josiah)
+-   Update & release Livepeer node for main net (Eric)
+    -   Delayed due to interim network scaling solution
+-   Offline mode for verification-solver - don't need to fix this week - just keep track of the data (Yondon)
+-   Verification-solver error (invalid length for result)
+-   Single-page dapp for submitting MerkleMine proof (low priority, don't work on it this week)
+-   Documentation for claim / bond action - blog + forum posts
+-   Key security for allow-listed verifier addresses?
+
+**This Week**
+-   Point explorer to main net. Probably this week or next. (Thu?) (Josiah)
+-   Continue improving explorer. More bug auditing and copy updates. Next week, we test. (Josiah)
+    -   Spec out specific improvements
+-   Talk with Eric and Yondon about MerkleMine Dapp (Josiah)
+-   Merge current changes for state recovery under a feature flag. (Josh)
+-   Continue working on state recovery. While job recovery is done, implementing claims recovery will probably take at least another day or two, then end-to-end testing a few more days. Merge by end of week if all goes well. But if it’s not holding up the release then might take some time to develop more thorough test cases, especially since after we release with a DB, we need to develop migrations each time we update the DB. Want to get it right as much as possible the first time.
+-   Review Phillip’s V2 transcoder workflow proposal
+-   Test out MerkleMine distribution on Rinkeby with very large account set and track gas costs (Yondon)
+-   Make necessary updates to deployment workflow (i.e. MerkleMine contract integration and transferring ownership of vesting contracts) and write appropriate tests (Yondon)
+-   Write up a new deployment checklist to reflect any updates made to the deployment workflow - test it out on Rinkeby (Yondon)
+-   Main net dry run with additional testing using mainnet conditions with the Livepeer node - Thursday?
+-   Do we want to make any add any features/support to the CLI tool for the MerkleMine contract right now or should we shift the focus to the dapp?
+-   Test & merge interim network scaling solution (Eric)
+-   Implement network protocol upgrade path (Eric)
+-   Gateway allow-list (Eric)
+-   Deploy new nodes in AWS, will share the keys in 1password (Eric)
+
+
 # Engineering Planning 4/9/2018
 
 ## Moderator / Notetaker: Eric Tang
