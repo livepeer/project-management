@@ -1,3 +1,67 @@
+# Engineering Planning 4/23/2018
+## Moderator: Josh Allmann
+## Notetaker: Eric Tang
+
+**Last Week**
+* Merge current changes for state recovery under a feature flag. (Josh)
+* Continue working on state recovery. While job recovery is done, implementing claims recovery will probably take at least another day or two, then end-to-end testing a few more days. Merge by end of week if all goes well. But if it’s not holding up the release then might take some time to develop more thorough test cases, especially since after we release with a DB, we need to develop migrations each time we update the DB. Want to get it right as much as possible the first time.
+* Point explorer to main net. Probably this week or next. (Thu?) (Josiah)
+* Continue improving explorer. More bug auditing and copy updates. Next week, we test. (Josiah)
+  * Spec out specific improvements
+* Talk with Eric and Yondon about MerkleMine Dapp (Josiah)
+* Review Phillip’s V2 transcoder workflow proposal
+* Test out MerkleMine distribution on Rinkeby with very large account set and track gas costs (Yondon)
+* Make necessary updates to deployment workflow (i.e. MerkleMine contract integration and transferring ownership of vesting contracts) and write appropriate tests (Yondon)
+* Write up a new deployment checklist to reflect any updates made to the deployment workflow - test it out on Rinkeby (Yondon)
+* Main net dry run with additional testing using mainnet conditions with the Livepeer node - Thursday?
+* Do we want to make any add any features/support to the CLI tool for the MerkleMine contract right now or should we shift the focus to the dapp?
+* Test & merge interim network scaling solution (Eric)
+* Implement network protocol upgrade path (Eric)
+  * No extra work needed here; libp2p has version checking built in
+  * Doesn’t allow for feedback to client on mismatched versions, but can live without
+* Gateway allow-list (Eric)
+  * Set up AWS usage/cost alerts until allow-list is implemented
+* Deploy new nodes in AWS, will share the keys in 1password (Eric)
+
+**This Week**
+* **Focus: network launch**
+* Merklemine script needs a little work so community members can use it (Yondon)
+* Terminology clarification: use ‘mine’ rather than ‘generate’
+* Website update (Doug, Josiah)
+  * /terms (looks like already done on master?)
+  * /privacy (looks like already done on master?)
+  * /participation
+  * Call to action on front page
+  * Mining Dapp (Josiah)
+  * Tx submission
+  * Proof generation
+  * Deployment?
+* User testing (Josiah)
+* Lite iteration between tests
+* Deploy default mainnet explorer/media player (Josiah)
+* Probably want an indicator of current network in the UI
+* Node issues
+  * Bootnode p2p network unstable (causes video streaming issues)
+    * Focus for this week (Eric)
+  * Infura connection unstable (actions that require multiple transactions often fail) - possible solutions (Eric)
+    * Ask transcoders to set up their own Geth node
+    * Set up Livepeer Eth nodes ONLY for transcoders
+    * Research using HTTP endpoints for Infura
+* Launch-related ops
+  * Parameter configuration (Yondon, Doug)
+  * Generate genesis root (Yondon)
+  * Deploy contracts in paused state (Yondon)
+  * Deploy 5 bootnodes, hard-code connection info into new node release (Eric)
+  * Deploy new gateway node in old AWS (we don’t have allow-lists yet.  Can add it with a quick follow-on release)
+  * Deploy explorer pointed to mainnet
+  * Deploy media player pointed to mainnet
+  * Deploy Livepeer verifier (Yondon)
+  * Deploy community transcoding node
+  * Ledger support will come through MyEtherWallet with ABI-based interaction as a first step, prior to optionally including it in DApp. (Doug)
+* Continue work on state recovery (Josh)
+* Check on Rinkeby and make sure new transcoder (with state recovery) is working (Eric)
+* Monitor in cloudfront for bandwidth to make sure no one abuses (Eric)
+
 
 # Engineering Planning 4/16/2018
 ## Moderator / Notetaker: Josiah Savary
