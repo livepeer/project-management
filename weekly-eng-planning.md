@@ -1,3 +1,50 @@
+# Engineering Planning 5/7/18
+## Moderator / Notetaker: Yondon Fu
+
+**Last Week**
+* Focus: bug fixes, hack days
+* Clean up go-livepeer issues (Eric)
+* Eric - Block list implementation (postpone to next week)
+* Prep for Swarm Summit talk (Eric)
+* Yondon - will be monitoring the contracts
+* Yondon - want to build out a simple alert system (for on-chain events)
+  * Possible hack day project
+* Josiah - would like to add ledger support
+* Josiah - would like to focus on quick bug fixes
+* Josh - will be monitoring issues in the broadcasting workflow
+* Yondon - catching up with Truebit
+* Eric - publish object store
+* Eric/Josh - video re-publishing (re-using the same job)
+* Josh - state recovery (concurrency issues)
+
+**This Week**
+* Delayed broadcasting (Josh)
+* Update docs related to last week’s changes (Josh)
+  * Localhost changes. Add to README.
+  * Explain why it’s like this, maybe a good forum topic/post on opsec.
+  * Add developer documentation on DB schema. Explain fields, etc.
+  * Forum post on local storage. Want to encourage someone to build a transcoder dashboard using data available in the DB.
+  * Forum post on reward() vs claim() (Doug)
+* Will help with any deployment issues (Eric)
+  * Round initialization daemon
+* Start research channel in Discord (Eric)
+* Set up LIP repo and improvement proposal process (Yondon/Doug)
+* Submit first LIPs
+* Begin work on design of partial unbonding (Yondon)
+* Begin work on design of withdrawal address for transcoders (Yondon)
+* Josiah
+  * Ledger support
+  * Apply Explorer copy updates from Raffi
+  * LivepeerJS community call (tomorrow, 1pm)
+  * Review user flows with Yondon
+  * Update scenarios for formal acceptance testing
+  * Explorer fix refreshing / polling (shows stale data sometimes after transaction)
+  * Intelligently skip approve (https://github.com/livepeer/livepeerjs/issues/54)
+  * Change routing in account view (https://github.com/livepeer/livepeerjs/issues/67)
+  * Bonding to an arbitrary address (https://github.com/livepeer/livepeerjs/issues/34)
+  * Link to report issues (https://github.com/livepeer/livepeerjs/issues/45)
+* Hack Day Wednesday (Doug)
+
 # Engineering Planning 4/23/2018
 ## Moderator: Josh Allmann
 ## Notetaker: Eric Tang
@@ -82,7 +129,7 @@
 -   Explorer bug fixes and enhancements outlined last week (Josiah)
     -   Call to action for transcoders
     -   Inline help
--   LivepeerJS documentation (CONTRIBUTING.md, README.md) (Josiah)    
+-   LivepeerJS documentation (CONTRIBUTING.md, README.md) (Josiah)
 -   Continue working on local storage aspects of restoring transcoder state (Josh)
     -   Sqlite based
 -   Update Rinkeby testnet parameter (Eric + Yondon)
@@ -133,10 +180,10 @@
   * Pre-commit hooks (linting / testing)
 * Continue updates for participation UI/API (Josiah)
   * Generally: multiple things every sprint - spend a little time each week to keep things up to date to relieve future update burden
-  * Potential copy and other requirement info updates dependent on clarification from legal 
+  * Potential copy and other requirement info updates dependent on clarification from legal
 * Explorer enhancements (Josiah)
   * Fix bugs, improve navigation, in-app tips
-  * Plan updates on pre-launch timeline 
+  * Plan updates on pre-launch timeline
   * Dependent on work on participation - optimistic, will get to possibly
     * Generally high priority, but trying to get past existing blockers for others first especially while we get participation out the door
 * Broadcasting bug: same node different IP - cannot broadcast from home on my laptop (Eric) - turns out I AM able to broadcast now. It’s hard to reproduce this bug. I think we need better instrumentation.
