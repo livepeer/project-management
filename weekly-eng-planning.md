@@ -1,4 +1,4 @@
-# Engineering Planning 5/7/18
+# Engineering Planning 5/21/18
 ## Moderator / Notetaker: Josiah Savary
 
 **Last Week**
@@ -40,6 +40,7 @@
 - Should we simplify the participate page?
 - Try to get people to delegate?  (ENS integration, etc)
 
+# Engineering Planning 5/7/18
 ## Moderator / Notetaker: Yondon Fu
 
 **Last Week**
