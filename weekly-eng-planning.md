@@ -1,4 +1,45 @@
 # Engineering Planning 5/7/18
+## Moderator / Notetaker: Josiah Savary
+
+**Last Week**
+- Share engineering roadmap for next 6 months (Eric)
+- Improve stability of media.livepeer.org by streaming directly from ingest servers (Eric)
+- Coordinate with the Berlin team
+- New go-livepeer release. What should we include? (Eric)
+- Automate the aggregating of protocol related metrics described in the success dashboard (Yondon)
+- LIP for transcoder withdrawal addresses by the end of the week (Yondon)
+- LIP for partial unbonding by end of week (Doug)
+- Improve the automatic reward call architecture so transcoders just need to focus on staying online (https://github.com/livepeer/go-livepeer/issues/421) (Yondon)
+- I'll also be focusing on research track related work around scalability/cost reduction and digging into the incentive structure of delegation (Yondon)
+- Gather feedback on v2 networking proposal (Josh)
+- Where to post transcoder addresses: still undecided
+- Finish Ledger support (Josiah)
+- Apply Explorer copy updates from Raffi (Josiah)
+- Intelligently skip approve (https://github.com/livepeer/livepeerjs/issues/54) (Josiah)
+- Explorer: Reward() history for a transcoder #66 (https://github.com/livepeer/livepeerjs/issues/66) (Josiah @ Doug’s request)
+- Submitting incorrect _endRound while trying to claim earnings #75 (Josiah)
+- ~~LivepeerJS Community Call on Friday (Josiah)~~
+- Can I get a request to prioritize the claim threshold flag for transcoders? (Doug) https://github.com/livepeer/go-livepeer/issues/371
+
+**This Week**
+- Finish Ledger support (Josiah)
+- Apply Explorer copy updates from Raffi (Josiah)
+- Intelligently skip approve (https://github.com/livepeer/livepeerjs/issues/54) (Josiah)
+- Explorer: Reward() history for a transcoder #66 (https://github.com/livepeer/livepeerjs/issues/66) (Josiah)
+- Submitting incorrect _endRound while trying to claim earnings #75 (Josiah)
+- Transcoder registry proposal. LIP? (Josh, Yondon)
+- TLS with Ethereum keys proposal (Josh)
+- Networking v2 implementation (Josh)
+- Merge drafts of upgraded LivepeerVerifier and transcoder withdrawal address LIPs (Yondon)
+- Parital unbonding specification (in progress discussion in LIPs repo: https://github.com/livepeer/LIPs/issues/5)
+- Incorporate feedback, publish roadmap to Livepeer community (Eric)
+- Build simple metrics tracking for video failure (Eric)
+- Set up engineering candidate pipeline (Eric)
+- Blocked on go-livepeer release, please help with https://github.com/livepeer/go-livepeer/pull/434 (Eric)
+- Encourage more people to Merkle Mine
+- Should we simplify the participate page?
+- Try to get people to delegate?  (ENS integration, etc)
+
 ## Moderator / Notetaker: Yondon Fu
 
 **Last Week**
