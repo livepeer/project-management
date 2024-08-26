@@ -1,5 +1,5 @@
 # Livepeer Project Management Repository 
-This repository is used for project management for various initiatives affecting the Livepeer protocol. The main use of this repository is for the Development Coordination meetings. It is also used for Breakout Rooms on various protocol-related topics, whose agendas can be found under the Issues page. This Google Calendar also tracks upcoming  meetings.
+This repository is used for project management for various initiatives affecting the Livepeer protocol. The main use of this repository is for the Development Coordination meetings. It is also used for Breakout Rooms on various protocol-related topics, whose agendas can be found under the Issues page. (This Google Calendar)[https://calendar.google.com/calendar/ical/community_calendar%40livepeer.org/public/basic.ics] also tracks upcoming  meetings.
 
 ## Development Coordination Meetings Overview
 Development Coordination is a bi-weekly meeting held by the Livepeer development community to discuss technical issues and coordinate work on the Livepeer protocol. The meetings are attended by core contributors from various organizations. During the call, participants discuss ongoing workstreams, potential protocol changes, testing and other related issues.
