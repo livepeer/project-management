@@ -1,165 +1,36 @@
-# Livepeer Project Management
+# Livepeer Project Management Repository 
+This repository is used for project management for various initiatives affecting the Livepeer protocol. The main use of this repository is for the Development Coordination meetings. It is also used for Breakout Rooms on various protocol-related topics, whose agendas can be found under the Issues page. This Google Calendar also tracks upcoming protocol meetings.
 
-This repository contains issues and projects relating to organizing
-and visualizing:
+## Development Coordination beetings Overview
+Purpose
+AllCoreDevs is a bi-weekly meeting held by the Livepeer development community to discuss technical issues and coordinate work on the Livepeer protocol. The meetings are attended by core contributors from various organizations. During the call, participants discuss ongoing workstreams, potential protocol changes, testing and other related issues.
 
-* The high level Livepeer roadmap
-* Project proposals
-* How we work together as an open, global project
+The calls are streamed and saved on the @LivepeerProtocol YouTube channel.
 
-This is meant as an open community forum, so feel free to comment on
-issues, ask questions, and create project proposals.
+## Agendas
+The agendas for calls are tracked in the Issues tab of this repository. To add an item to an agenda, simply add a comment to one of the agenda issues.
 
-## Community Roadmap
+Anyone is welcome to add an item to the agenda as long as it follows these guidelines:
 
-The roadmap is captured in
-[The Roadmap Project](https://github.com/livepeer/project-management/projects/2)
-within this repo.
+- The topic is technical in nature.
+- The topic should not be philosophical. The Development Coordination meetings are not meant to decide philosophical contentious issues that should be decided by the community. There are exceptions to this, but generally these topics distract from more productive technical discussions. The (Livepeer Forum)[https://forum.livepeer.org/] and Discord #governance channel are better venues for such discussions.
 
-It is inteded to present the highest level view possible of what the
-most immediate goals are, what's being worked on, what is coming
-next,and the most urgent blockers that are preventing
-forward progress.
 
-Individual implementation issues are captured within module specific repositories.
+## Definitions
 
-## Community Project Proposals
+### Livepeer Core Developers
+A core developer is responsible for contributing to the development and maintenance of the Livepeer network, including implementing updates, new capabilities, and optimizations. The team works on core software, such as Livepeer clients or protocol explorers, and plays a key role in planning and execution.
 
-Issues in this repo organized into the project proposals project include suggestions for projects to be built on Livepeer. This encompasses:
+### Current Criteria (subject to change)
+- Core developers or teams must meet one or more of the following criteria:
+- 1 or more dedicated team members working on public goods for Livepeer
+- Treasury-funded SPE with track record of delivering software
+- Unique knowledge / ability to advise other core developers
 
-* Decentralized Applications (DApps)
-* Video features
-* P2P Networking and content delivery
-* Protocol upgrades
-* Open source contributions to other projects that relate to Livepeer
+## Who Can Attend
+Core developers are invited to attend the meetings as speakers; the entire Livepeer community is welcome to attend. Sometimes non-core contributors with particular expertise on a topic are invited on to discuss a specific agenda item. If you feel you would contribute to the meetings by your attendance please reach out to Hunter Hillman.
 
-Feel free to add any ideas, suggestions, comments, or begin collaborating on an open idea [in the issues](https://github.com/livepeer/project-management/issues). There is some organization of these issues in a [project view here](https://github.com/livepeer/project-management/projects/1).
+Who Facilitates the Meetings
+Today, Hunter Hillman facilitates the Development Coordination meeting. If there are Breakout Rooms, they are usually chaired by their respective expert / champion.
 
-## How We Work
-
-Livepeer has team members, contributors, and community members all
-over the world. We use the following practices to ensure that no
-matter where a community member is, or how they want to get involved,
-they can participate in an effective and inclusive way.
-
-### Bi-weekly Open Community Calls
-
-Every other week we try to host a community call. The schedule,
-agenda, and roles are tracked in
-[issues in this repo](https://github.com/livepeer/project-management/issues). The
-calls are open to all, live streamed, and anyone is encouraged to
-comment on the planning issue to add to the
-agenda.
-
-[View a previous planning issue](https://github.com/livepeer/project-management/issues/30). 
-
-The calls are an opportunity to get a glimpse into the current
-priorities, and to ask questions and discuss ideas. They are capped at
-60 minutes max, and notes are shared on the issue following the call.
-
-### High level development priorities
-
-These are captured in the
-[The Roadmap Project](https://github.com/livepeer/project-management/projects/2)
-as described above. These are the most important goals that the team
-is running at, and are revisited on roughly a quarterly cadence.
-
-### Project based organization
-
-There are a number of components in the Livepeer ecosystem. Even
-though they all need to be maintained, fixed, updated, and improved,
-work is not necessarily organized around a specific
-component. Instead, it is generally organized around the concept of a
-**project**, with a defined goal and known team members who are
-focused on hitting the goal.
-
-The active projects can be found in the high level roadmap listed
-above.
-
-Each active project has a room in our
-[gitter chat](https://gitter.im/livepeer) for daily standup updates
-and coordination.
-
-### Weekly development sprints
-
-Each week there is a Monday engineering planning meeting where we:
-
-1. Look back at the goals and deliverables for the previous week for
-   each of the product and hold ourselves accountable to whether or
-   not we delivered.
-2. Set goals for the current week and take ownership of deliverables
-within each project.
-
-We rotate to be the **moderator**.  The moderator's responsibilities include:
-* Prepare and send out shared work sheet prior to the meeting
-  * Create the sections for each project
-  * Fill out the decided tasks from last week
-* Coordinate / start the meeting
-* Make sure discussions are happening on pace - the meeting shouldn't exceed an hour
-* Make sure discussions are on-topic - prompt people to connect off-line for more in-depth conversations
-* Make sure everyone at the meeting speaks - prompt people to speak (what do you think about "x" Eric?)
-* Keep notes on the tasks decided for the current week
-* Make sure to assign an owner for each decided task
-* Publish meeting notes
-
-Team members are expected to come prepared to this meeting by **filling out + reviewing the shared work sheet** prior to the meeting.
-
-Notes from each week's planning meeting is posted [here](https://github.com/livepeer/project-management/blob/master/weekly-eng-planning.md).
-
-Current moderator rotations: 
-```
-Yondon -> Eric -> Josiah -> Josh
-  ▲                          |                           
-  |                          ▼
-  ----------------------------
-```
-
-### Daily virtual standup
-
-Each morning team members on a given project are expected to post a
-brief virtual standup to the project's status update chat room on
-Gitter. The format is:
-
-* **Date**
-* **What I did yesterday**
-* **What I'm doing today**
-* **Blockers if any**
-
-### Github based communication
-
-Team members are encouraged to use Github issues and Github projects
-to overshare their thoughts, ideas, tasks, and issues. File issues for
-each task worked on or feature change no matter how small and self
-contained.
-
-Likewise, other collaborators are encouraged to triage these issues
-(closing them if necessary after responding), and potentially organize
-them into projects in order to aid in prioritization.
-
-### Prioritization
-
-Livepeer level prioritization is expected to take place in the
-high level roadmap shared above. Individual issues in sub projects are
-tricker to prioritize.
-
-Team members are encouraged to use Github projects and milestones within individual
-repositories to prioritize issues contained within that
-repository. It's recommended to use the "To-do", "In Progress", "Done"
-columns at the minimum.
-
-The weekly engineering planning meeting is a good time to get feedback
-on and share the prioritization. But it's also a good idea to ask for
-some discussion any time priorities are in question.
-
-### A note on decentralization
-
-While the above is meant to help people understand how to get involved
-in the project and how to fit in the workflow, it's important to
-remember that Livepeer is a decentralized, permissionless
-project. **This means you are empowered to build what you want to see
-exist, and no permission is necessary.**
-
-If you have questions about how to make an impact or contribution to
-Livepeer, stop by the
-[gitter chatroom](https://gitter.im/livepeer/Lobby) and say hello.
-
+The meetings are independent of any organization. However, Hunter Hillman is a Product Manager for Livepeer Inc.
