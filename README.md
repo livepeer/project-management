@@ -1,8 +1,8 @@
 # Livepeer Project Management Repository 
-This repository is used for project management for various initiatives affecting the Livepeer protocol. The main use of this repository is for the Development Coordination meetings. It is also used for Breakout Rooms on various protocol-related topics, whose agendas can be found under the Issues page. This Google Calendar also tracks upcoming  meetings.
+This repository is used for project management for various initiatives affecting the Livepeer protocol and clients. The main use of this repository is for the Development Coordination meetings. It is also used for Breakout Rooms on various technical topics, whose agendas can be found under the Issues page. This Google Calendar also tracks upcoming meetings.
 
 ## Development Coordination Meetings Overview
-Development Coordination is a bi-weekly meeting held by the Livepeer development community to discuss technical issues and coordinate work on the Livepeer protocol. The meetings are attended by core contributors from various organizations. During the call, participants discuss ongoing workstreams, potential protocol changes, testing and other related issues.
+Development Coordination is a bi-weekly meeting held by the Livepeer development community to discuss technical issues and coordinate work on the Livepeer protoco and clients. The meetings are attended by core contributors from various organizations. During the call, participants discuss ongoing workstreams, potential changes, testing and other related issues.
 
 ## Agendas
 The agendas and meeting notes for calls are tracked in the Issues tab of this repository. To add an item to an agenda, simply add a comment to one of the agenda issues.
@@ -11,7 +11,6 @@ Anyone is welcome to add an item to the agenda as long as it follows these guide
 
 - The topic is technical in nature.
 - The topic should not be philosophical. The Development Coordination meetings are not meant to decide philosophical contentious issues that should be decided by the community. There are exceptions to this, but generally these topics distract from more productive technical discussions. The (Livepeer Forum)[https://forum.livepeer.org/] and Discord #governance channel are better venues for such discussions.
-
 
 ## Definitions
 
