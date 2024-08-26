@@ -27,7 +27,7 @@ A core developer is responsible for contributing to the development and maintena
 ## Who Can Attend
 Core developers are invited to attend the meetings as speakers; the entire Livepeer community is welcome to attend. Sometimes non-core contributors with particular expertise on a topic are invited on to discuss a specific agenda item. If you feel you would contribute to the meetings by your attendance please reach out to Hunter Hillman.
 
-Who Facilitates the Meetings
+## Who Facilitates the Meetings
 Today, Hunter Hillman facilitates the Development Coordination meeting. If there are Breakout Rooms, they are usually chaired by their respective expert / champion.
 
 The meetings are independent of any organization. However, Hunter Hillman is a Product Manager for Livepeer Inc.
