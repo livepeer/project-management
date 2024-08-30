@@ -1,8 +1,8 @@
 # Livepeer Project Management Repository 
 This repository is used for project management for various initiatives affecting the Livepeer protocol and clients. The main use of this repository is for the Development Coordination meetings ([more info on these meetings can be found here](/DevelopmentCoordinationCalls/README.md)). It is also used for Breakout Rooms on various technical topics, whose agendas can be found under the Issues page. [This Google Calendar](https://calendar.google.com/calendar/ical/community_calendar%40livepeer.org/public/basic.ics) also tracks upcoming  meetings.
 
-## Meeting Recordings
-[Call-01 - 2024-08-29](https://lvpr.tv?v=6107bjr7kv6oxjc1)
+## Meeting Recordings & Notes 
+[Call-01 - 2024-08-29](https://lvpr.tv?v=6107bjr7kv6oxjc1)  | [Notes](https://github.com/livepeer/project-management/blob/main/DevelopmentCoordinationCalls/Call-01.md)
 
 ## Development Coordination Meetings Overview
 Development Coordination is a bi-weekly meeting held by the Livepeer development community to discuss technical issues and coordinate work on the Livepeer protocol and clients. The meetings are attended by core contributors from various organizations. During the call, participants discuss ongoing workstreams, potential changes, testing and other related issues.
