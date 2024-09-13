@@ -3,6 +3,7 @@ This repository is used for project management for various initiatives affecting
 
 ## Meeting Recordings & Notes 
 [Call-02 - 2024-09-12](https://lvpr.tv?v=56a0x3d9u8ql7zqp)
+
 [Call-01 - 2024-08-29](https://lvpr.tv?v=6107bjr7kv6oxjc1)  | [Notes](https://github.com/livepeer/project-management/blob/main/DevelopmentCoordinationCalls/Call-01.md)
 
 ## Development Coordination Meetings Overview
