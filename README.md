@@ -2,6 +2,8 @@
 This repository is used for project management for various initiatives affecting the Livepeer protocol and clients. The main use of this repository is for the Development Coordination meetings ([more info on these meetings can be found here](/DevelopmentCoordinationCalls/README.md)). It is also used for Breakout Rooms on various technical topics, whose agendas can be found under the Issues page. [This Google Calendar](https://calendar.google.com/calendar/ical/community_calendar%40livepeer.org/public/basic.ics) also tracks upcoming  meetings.
 
 ## Meeting Recordings & Notes 
+[Call-04 - 2024-12-12](https://lvpr.tv?v=a9b60rye7909i8dg)
+
 [Call-03 - 2024-09-26](https://lvpr.tv?v=ae14us5mw1hkvbuu)
 
 [Call-02 - 2024-09-12](https://lvpr.tv?v=56a0x3d9u8ql7zqp)
